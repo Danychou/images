@@ -1,0 +1,197 @@
+*{
+    background: rgb(185, 128, 201);
+}
+img{
+    width:200px;
+    height:180px ;
+    /*border: 3px solid rgb(8, 8, 8);*/
+    border-radius: 10%;
+    
+}
+
+.pic{
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+}
+.come{
+    border-radius: 2px double rgb(8, 8, 8);
+    background: burlywood;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.come:hover {
+    transform: scale(1.1);
+}
+.well{
+    background: black;
+    width: 305px;
+    height: 305px;
+}
+
+h2{
+   text-align: center;
+    background: burlywood;
+}
+.but{
+    height: 30px;
+    border-radius: 40%;
+    background: burlywood;
+}
+.but:hover{
+    background: rgb(131, 105, 105);
+    transition: 2s;
+}
+header{
+    display: flex;
+    gap:200px;
+    background: rgb(185, 128, 201);
+    border-bottom: 3px double black;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-top: 50px;
+}
+.navbar{
+    margin-left: 100px;
+        width: 400px;
+        float: left;
+        height: 70px;
+    
+ }
+ 
+.navbar ul{
+    display: flex;
+    gap: 50px;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: rgb(248, 246, 246);
+    text-decoration: none;
+}
+.click ul li a{
+    color: rgb(61, 7, 71);
+    text-decoration: none;
+   
+}
+ul li a:hover{
+    color: rgb(5, 5, 5);
+    transition: 1s;
+}
+
+.logo{
+    margin-left: 20px;
+    color: rgb(61, 7, 71);
+}
+.cn{
+    width: 160px;
+    height: 40px;
+    background: rgb(185, 128, 201);
+    border-radiuS: 5px double black;
+    margin-top: 17px;
+    margin-left: 100px;
+    font-size: 18px;
+    /*cursor: pointer;*/
+}
+.cn:hover{
+    background: linear-gradient(to right, rgb(187, 10, 223),rgb(152, 11, 233), rgb(83, 83, 177));
+    transition: 2s;
+}
+section{
+    display: flex;
+    /*background:linear-gradient(to top, rgb(11, 11, 233),rgb(233, 74, 11), rgb(83, 83, 177));*/
+
+    height:520px;
+    
+}
+section .mine img{
+    width: 800px;
+    height: 400px;
+    border-radius: 25%;
+    /*border: 2px double #000;*/
+    margin-top: 30px;
+    background: rgb(240, 129, 255);
+    box-shadow: 10px 10px 10px 10px rgb(0, 0, 0, 0.5);
+}
+section .par{
+    margin-top: 10px;
+   padding: 20px;
+}
+
+section .par h1{
+    color: rgb(37, 3, 53);
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    margin-left: 25px;
+    
+}
+section .par p{
+    color:#000 ;
+    font-size: 20px;
+    font-family:'Gill Sans';
+    padding: 30px;
+}
+footer{
+    background: rgb(12, 12, 12);
+    border-top: 1px dashed black;
+    color: #ddd;
+    
+}
+.footer-section{
+    margin-bottom: 20px;
+    background-color: #000;
+    
+}
+.footer-section h3{
+    margin-bottom: 10px;
+    background-color: #000;
+    text-align: center;
+}
+.footer-section, .para{
+    margin: 5px 0;
+    background: #000;
+ 
+}
+
+.footer-section a{
+    color:#0073e6;
+    text-decoration: none;
+    background: #000;
+    display: inline;
+}
+.footer-section a:hover{
+    text-decoration: underline;
+}
+.footer-bottom{
+   
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    display: flex;
+    gap: 52%;
+    background: #000;
+}
+.icons{
+    background: #000;
+}
+strong{
+    background: #000;
+    text-decoration: underline;
+    color: rgb(185, 226, 226);
+}
+.block{
+    display: flex;
+    background: #000;
+    gap: 400px;
+}
+.lg{
+    width: 50px;
+    height: 35px;
+}
